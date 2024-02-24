@@ -58,7 +58,7 @@
 <body>
 
 	<nav class="navMenu  border">
-		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-power-off"></i> Home</a>
+		<a id="start" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-power-off"></i> Start</a>
 		<a id="plan" onclick="navigate(this.id)" href="#"> <i class="fa-regular fa-calendar"></i> Plan</a>
 		<a id="tasks" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> Tasks</a>
 		<a id="projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Projects</a>
@@ -84,7 +84,7 @@
 
 		function navigate(id) {
 
-			if (id == "home")
+			if (id == "start")
 				window.open("https://www.notion.so/Life-Planner-a7e46232188a415fa3808cc1cf73fed4?pvs=4", '_blank').focus();
 			else if (id == "plan")
 				window.open("https://www.notion.so/Plan-bc1e68b6b85f408cb308c4256262489d?pvs=4", '_blank').focus();
